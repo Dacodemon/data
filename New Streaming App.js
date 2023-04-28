@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+var html=`<!DOCTYPE html>
 <head>
 <title>CG STREAMING</title>
 </head>
@@ -32,3 +32,5 @@
 </script>
 </body>
 </html>
+` 
+document.write(html)
