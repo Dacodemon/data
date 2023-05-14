@@ -1,9 +1,5 @@
-alert("testing")
-var html=`<!DOCTYPE html>
-<head>
-<title>CG STREAMING</title>
-</head>
-<body>
+
+var html=`
 <div id="head">
 <h1>CG STREAMING</h1>
 <button id="ct btn">Chris Tomlin</button>
@@ -42,10 +38,5 @@ var html=`<!DOCTYPE html>
 <h3>God Is So Good (You Are Worthy) - Pat Barret</h3>
 <audio src="https://cdn.jsdelivr.net/gh/Dacodemon/data@data/02%20God%20Is%20So%20Good%20(You%20Are%20Worthy).mp3"controls></audio>
 </div>
-<script>
-
-</script>
-</body>
-</html>
 `
-document.write(html)
+document.getElementById("div").innerHTML=html
